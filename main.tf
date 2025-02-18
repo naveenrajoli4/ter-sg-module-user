@@ -1,4 +1,4 @@
-module "sg" {
+module "sg_mysql" {
   source       = "../ter-sg-module-dev"
   location     = var.location
   project_name = var.project_name
